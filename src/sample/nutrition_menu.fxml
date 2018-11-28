@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NutritionController">
+   <children>
+      <Button layoutX="471.0" layoutY="343.0" mnemonicParsing="false" onAction="#nutritionSubmit" text="Add" />
+      <TextField fx:id="descriptionSubmit" layoutX="412.0" layoutY="308.0" onAction="#nutritionSubmit" promptText="Description" />
+      <TextField fx:id="caloriesSubmit" layoutX="412.0" layoutY="244.0" onAction="#nutritionSubmit" promptText="Calories" />
+      <TextField fx:id="nameSubmit" layoutX="412.0" layoutY="187.0" onAction="#nutritionSubmit" promptText="Name" />
+      <Button layoutX="472.0" layoutY="137.0" mnemonicParsing="false" onAction="#nutritionField" text="Log" />
+      <TextField fx:id="quantityField" layoutX="412.0" layoutY="39.0" onAction="#nutritionField" promptText="Enter Quantity" />
+      <Text layoutX="410.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity" />
+      <Text layoutX="412.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+      <Text layoutX="412.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calories" />
+      <Text layoutX="412.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" />
+      <TextField fx:id="nameField" layoutX="412.0" layoutY="102.0" onAction="#nutritionField" promptText="Search Name" />
+      <Text layoutX="412.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+      <TableView fx:id="nutritionTable" layoutY="2.0" prefHeight="391.0" prefWidth="397.0">
+
+      </TableView>
+   </children>
+</AnchorPane>
