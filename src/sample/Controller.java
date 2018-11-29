@@ -128,6 +128,7 @@ public class Controller {
         logItemsVisitor goalVisitor = new logItemsVisitorImpl();
 
         int goalVisit = setGoalsController.goals.get(setGoalsController.goals.size()-1).accept(goalVisitor);
+        System.out.println(goalVisit);
         int currentday = (LocalDate.now().getYear()-2018) * 365 + LocalDate.now().getDayOfYear();
         goal.getData().add(new XYChart.Data<Number, Number>(0, goalVisit));
         goal.getData().add(new XYChart.Data<Number, Number>(currentday, goalVisit));
@@ -150,7 +151,11 @@ public class Controller {
         series.getData().add(new XYChart.Data(12, 25));
         */
 
+        Scene scene  = new Scene(lineChart,800,600);
+        lineChart.getData().add(series);
 
+        data.setScene(scene);
+        data.show();
 
 
     }
