@@ -9,6 +9,9 @@ import javafx.util.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+/**
+ *
+ */
 public class setGoalsController {
 
     public static ArrayList<Goal> goals = new ArrayList();

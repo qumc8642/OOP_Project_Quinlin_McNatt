@@ -16,7 +16,10 @@ import java.util.Date;
 import java.time.LocalDate;
 
 
-
+/**
+ *
+ *
+ */
 public class dataLogController {
     public TextField weightSubmit;
     public DatePicker dateSubmit;

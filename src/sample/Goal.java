@@ -1,6 +1,9 @@
 package sample;
 import java.time.LocalDate;
 
+/**
+ *
+ */
 public class Goal implements logItems{
 
     public LocalDate goalDate;

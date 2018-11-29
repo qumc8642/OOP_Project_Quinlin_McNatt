@@ -2,6 +2,9 @@ package sample;
 
 import java.util.ArrayList;
 
+/**
+ *
+ */
 public interface logItemsVisitor {
 
     int visit(Log log);
@@ -10,7 +13,9 @@ public interface logItemsVisitor {
     double visit(dataLogController dataLogController);
 }
 
-
+/**
+ *
+ */
 class logItemsVisitorImpl implements logItemsVisitor
 {
 

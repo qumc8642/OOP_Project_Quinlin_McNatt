@@ -2,6 +2,9 @@ package sample;
 
 import java.time.LocalDate;
 
+/**
+ *
+ */
 public class Nutrition implements logItems{
 
     public String name;
