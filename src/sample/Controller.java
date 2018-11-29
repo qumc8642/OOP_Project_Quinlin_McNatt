@@ -90,10 +90,6 @@ public class Controller {
 
     }
 
-    public void workoutMenu(ActionEvent event)
-    {
-
-    }
 
 
     public void viewData(ActionEvent event)
